@@ -1,0 +1,8 @@
+.boxed {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0px 200px;
+    background-color: white;
+    width: 100%;
+}
