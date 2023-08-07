@@ -1,5 +1,6 @@
 @media screen and (max-width: 480px) {
 
+    /*Highlight start*/
     .main-container {
         align-self: center;
         width: 90%;
@@ -18,7 +19,7 @@
     }
     
     
-    .destaque {
+    .topic-highlights {
         grid-column: 1 / -1;
         cursor: pointer;
         background-image: url(../../img/destaqueimg.png);
@@ -31,7 +32,7 @@
         align-items: flex-end;
     }
     
-    .destaque-texto {
+    .highlights-text {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -40,16 +41,16 @@
         background-color: #FFF;
     }
 
-    .destaque h1 {
+    .topic-highlights h1 {
         font-size: 15px;
     
     }
     
-    .destaque-texto .subtitulo {
+    .highlights-text .highlights-subtitle {
         font-size: 10px;
     }
     
-    .fonte {
+    .highlights-source {
         color: rgb(184, 184, 184);
         padding-bottom: 10px;
         width: 180px;
@@ -60,8 +61,10 @@
         border-image: linear-gradient(to right, #e95c7b, #4d22c5);
         border-image-slice: 1;
     }
-     
-    .reportagem1 {
+    /*Highlight of end*/
+
+    /*Start of reports*/       
+    .post {
         cursor: pointer;
         width: 100%;
         height: 305px;
@@ -69,32 +72,30 @@
         flex-direction: column;
         justify-content: start;
     }
-
-    .kobe-destaque {
-        width: 100%;
-    }
-    
-    .reportagem-img {
+   
+    .post-img-container {
         display: flex;
         overflow: hidden;
+        align-items: center;
+        overflow: hidden;
     }
-    
-    .imagem-kobe {
+
+    .post-image {
         width: 100%;
         height: 230px;
     }
+   
+    .post-title {
+        font-size: 15px;
+    }
     
-    .reportagem-texto {
+    .post-text {
         background-color: #FFF;
         padding-top: 10px;
         height: 65px;
     }
-
-    .reportagem-texto .subtitulo {
-        font-size: 15px;
-    }
     
-    .fonte2 {
+    .post-source-first {
         color: rgb(184, 184, 184);
         padding-bottom: 10px;
         padding-top: 10px;
@@ -108,28 +109,7 @@
         border-image-slice: 1;
     }
     
-    .reportagem2 {
-        cursor: pointer;
-        width: 100%;
-        height: 305px;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-    }
-    
-    .reportagem-img2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-    }
-    
-    .imagem-whats {
-        width: 100%; 
-        height: 230px;
-    }
-    
-    .fonte3 {
+    .post-source-second {
         color: rgb(184, 184, 184);
         padding-bottom: 10px;
         padding-top: 10px;
@@ -142,6 +122,7 @@
         border-image: linear-gradient(to right, #5ce0e9, #35c772);
         border-image-slice: 1;
     }
+    /*End of reports*/
 
     .boxed {
         display: flex;
@@ -156,6 +137,7 @@
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
+    /*Highlight start*/
     .main-container {
         align-self: center;
         width: 90%;
@@ -173,7 +155,7 @@
     }
     
     
-    .destaque {
+    .topic-highlights {
         grid-column: 1 / -1;
         cursor: pointer;
         background-image: url(../../img/destaqueimg.png);
@@ -186,7 +168,7 @@
         align-items: flex-end;
     }
     
-    .destaque-texto {
+    .highlights-text {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -195,16 +177,16 @@
         background-color: #FFF;
     }
 
-    .destaque h1 {
+    .topic-highlights h1 {
         font-size: 18px;
     
     }
     
-    .destaque-texto .subtitulo {
+    .highlights-text .highlights-subtitle {
         font-size: 13px;
     }
     
-    .fonte {
+    .highlights-source {
         color: rgb(184, 184, 184);
         padding-bottom: 10px;
         width: 200px;
@@ -215,40 +197,39 @@
         border-image: linear-gradient(to right, #e95c7b, #4d22c5);
         border-image-slice: 1;
     }
-     
-    .reportagem1 {
+    /*Highlight of end*/
+
+    /*Start of reports*/     
+    .post {
         cursor: pointer;
         width: 100%;
-        height: 300px;
+        height: 245px;
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: flex-start;
     }
 
-    .kobe-destaque {
-        width: 100%;
-    }
-    
-    .reportagem-img {
+    .post-img-container {
         display: flex;
         overflow: hidden;
     }
-    
-    .imagem-kobe {
+       
+    .post-image {
         width: 100%;
         height: 140px;
     }
     
-    .reportagem-texto {
+    .post-text {
         background-color: #FFF;
         padding-top: 10px;
+        height: 95px;
     }
 
-    .reportagem-texto .subtitulo {
+    .post-title {
         font-size: 15px;
     }
     
-    .fonte2 {
+    .post-source-first {
         color: rgb(184, 184, 184);
         padding-bottom: 10px;
         padding-top: 20px;
@@ -261,33 +242,7 @@
         border-image-slice: 1;
     }
     
-    .reportagem2 {
-        cursor: pointer;
-        width: 100%;
-        height: 300px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-    }
-    
-    .reportagem-img2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-    }
-    
-    .imagem-whats {
-        width: 100%; 
-        height: 140px;
-    }
-    
-    .reportagem-texto {
-        background-color: #FFF;
-        padding-top: 10px;
-    }
-    
-    .fonte3 {
+    .post-source-second {
         color: rgb(184, 184, 184);
         padding-bottom: 10px;
         padding-top: 20px;
@@ -299,10 +254,7 @@
         border-image: linear-gradient(to right, #5ce0e9, #35c772);
         border-image-slice: 1;
     }
-    
-    h2 {
-        font-size: 28px;
-    }
+    /*End of reports*/ 
 
     .boxed {
         display: flex;
@@ -317,6 +269,7 @@
 
 @media screen and (min-width: 769px) and (max-width: 1279px) {
 
+    /*Highlight start*/
     .main-container {
         align-self: center;
         width: 90%;
@@ -334,7 +287,7 @@
     }
     
     
-    .destaque {
+    .topic-highlights {
         grid-column: 1 / -1;
         cursor: pointer;
         background-image: url(../../img/destaqueimg.png);
@@ -347,7 +300,7 @@
         align-items: flex-end;
     }
     
-    .destaque-texto {
+    .highlights-text {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -356,16 +309,16 @@
         background-color: #FFF;
     }
 
-    .destaque h1 {
+    .topic-highlights h1 {
         font-size: 25px;
     
     }
     
-    .destaque-texto .subtitulo {
+    .highlights-text .highlights-subtitle {
         font-size: 15px;
     }
     
-    .fonte {
+    .highlights-source {
         color: rgb(184, 184, 184);
         padding-bottom: 20px;
         width: 300px;
@@ -376,8 +329,10 @@
         border-image: linear-gradient(to right, #e95c7b, #4d22c5);
         border-image-slice: 1;
     }
-     
-    .reportagem1 {
+    /*Highlight of end*/
+
+    /*Start of reports*/      
+    .post {
         cursor: pointer;
         width: 100%;
         height: 410px;
@@ -386,30 +341,28 @@
         justify-content: flex-end;
     }
 
-    .kobe-destaque {
-        width: 100%;
-    }
-    
-    .reportagem-img {
+    .post-img-container {
         display: flex;
+        justify-content: center;
+        align-items: center;
         overflow: hidden;
     }
     
-    .imagem-kobe {
+    .post-image {
         width: 100%;
         height: 250px;
     }
     
-    .reportagem-texto {
+    .post-text {
         background-color: #FFF;
         padding-top: 10px;
     }
 
-    .reportagem-texto .subtitulo {
+    .post-title {
         font-size: 24px;
     }
     
-    .fonte2 {
+    .post-source-first {
         color: rgb(184, 184, 184);
         padding-bottom: 20px;
         padding-top: 20px;
@@ -422,33 +375,7 @@
         border-image-slice: 1;
     }
     
-    .reportagem2 {
-        cursor: pointer;
-        width: 100%;
-        height: 410px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-    }
-    
-    .reportagem-img2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-    }
-    
-    .imagem-whats {
-        width: 100%; 
-        height: 250px;
-    }
-    
-    .reportagem-texto {
-        background-color: #FFF;
-        padding-top: 10px;
-    }
-    
-    .fonte3 {
+    .post-source-second  {
         color: rgb(184, 184, 184);
         padding-bottom: 20px;
         padding-top: 20px;
@@ -460,10 +387,7 @@
         border-image: linear-gradient(to right, #5ce0e9, #35c772);
         border-image-slice: 1;
     }
-    
-    h2 {
-        font-size: 28px;
-    }
+    /*End of reports*/ 
 
     .boxed {
         display: flex;
@@ -478,6 +402,7 @@
 
 @media screen and (min-width: 1280px) and (max-width: 1380px) {
 
+    /*Highlight start*/
     .main-container {
         align-self: center;
         width: 90%;
@@ -495,7 +420,7 @@
     }
     
     
-    .destaque {
+    .topic-highlights {
         grid-column: 1 / -1;
         cursor: pointer;
         background-image: url(../../img/destaqueimg.png);
@@ -508,7 +433,7 @@
         align-items: flex-end;
     }
     
-    .destaque-texto {
+    .highlights-text {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -517,11 +442,16 @@
         background-color: #FFF;
     }
     
-    .destaque-texto .subtitulo {
+        
+    .topic-highlights h1 {
+        font-size: 36px;
+    }
+
+    .highlights-text .highlights-subtitle {
         font-size: 22px;
     }
     
-    .fonte {
+    .highlights-source {
         color: rgb(184, 184, 184);
         padding-bottom: 20px;
         width: 550px;
@@ -531,17 +461,10 @@
         border-image: linear-gradient(to right, #e95c7b, #4d22c5);
         border-image-slice: 1;
     }
-    
-    .kobe-destaque {
-        width: 100%;
-    }
-    
-    .destaque h1 {
-        font-size: 36px;
-    
-    }
-    
-    .reportagem1 {
+    /*Highlight of end*/
+
+    /*Start of reports*/      
+    .post {
         cursor: pointer;
         width: 100%;
         height: 500px;
@@ -550,22 +473,29 @@
         justify-content: flex-end;
     }
     
-    .reportagem-img {
+    .post-img-container {
         display: flex;
+        justify-content: center;
+        align-items: center;
         overflow: hidden;
     }
     
-    .imagem-kobe {
+    .post-image {
         width: 100%;
         height: 300px;
     }
+
+        
+   .post-title {
+        font-size: 32px;
+    }
     
-    .reportagem-texto {
+    .post-text {
         background-color: #FFF;
         padding-top: 10px;
     }
     
-    .fonte2 {
+    .post-source-first {
         color: rgb(184, 184, 184);
         padding-bottom: 20px;
         padding-top: 20px;
@@ -577,37 +507,7 @@
         border-image-slice: 1;
     }
     
-    h2 {
-        font-size: 32px;
-    }
-    
-    .reportagem2 {
-        cursor: pointer;
-        width: 100%;
-        height: 500px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-    }
-    
-    .reportagem-img2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-    }
-    
-    .imagem-whats {
-        width: 100%; 
-        height: 300px;
-    }
-    
-    .reportagem-texto {
-        background-color: #FFF;
-        padding-top: 10px;
-    }
-    
-    .fonte3 {
+    .post-source-second {
         color: rgb(184, 184, 184);
         padding-bottom: 20px;
         padding-top: 20px;
@@ -618,10 +518,7 @@
         border-image: linear-gradient(to right, #5ce0e9, #35c772);
         border-image-slice: 1;
     }
-    
-    h2 {
-        font-size: 32px;
-    }
+    /*End of reports*/ 
 
     .boxed {
         display: flex;
@@ -630,6 +527,5 @@
         padding: 0px 100px;
         background-color: white;
         width: 100%;
-    }
-    
+    }   
 }
