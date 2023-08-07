@@ -15,7 +15,7 @@
   width: 100%;
 }
 
-.header-conteudo {
+.header-text {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -23,18 +23,18 @@
   align-items: center;
 }
 
-.header-conteudo img {
+.header-text img {
   width: 350px;
 }
 
-.vector1 {
+.header-ball-vector {
   position: absolute;
   top: 50px;
   left: 0px;
   width: 300px;
 }
 
-.nrf {
+.nrf-text {
   display: flex;
   flex-direction: column;
   text-align: end;
@@ -42,40 +42,40 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.nrf img {
+.nrf-text .header-zigzag-vector {
   width: 150px;
   display: flex;
   align-self: flex-end;
   padding-top: 15px;
 }
 
-.vector3 img {
+.header-littleballs-vector img {
   position: absolute;
   top: 230px;
   left: 30%;
   width: 60px;
 }
 
-.vector5 img {
+.header-triangle-vector img {
   position: absolute;
   right: 60px;
   top: 5px;
   width: 40px;
 }
 
-.vector6 img {
+.header-arrows-vector img {
   position: absolute;
   left: 50%;
   top: 50px;
   width: 80px;
 }
 
-.header-mulher {
+.header-woman-vector {
   position: absolute;
   top: 160px;
   left: 50%;
 }
 
-.header-mulher img {
+.header-woman-vector img {
     height: 250px;
 }
