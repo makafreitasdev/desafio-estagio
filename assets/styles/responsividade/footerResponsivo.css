@@ -6,7 +6,7 @@
         margin-top: 30px;
     }
     
-    .mandarim-footer {
+    .mandarim-logo {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -15,12 +15,12 @@
     }
     
     
-    .madarim-logo-assinatura {
+    .madarim-logo-signature {
         width: 90%;
         height: 120px;
     }
     
-    .direitos-container {
+    .rights {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -32,7 +32,7 @@
         width: 100%;
     }
     
-    .direitos-container a {
+    .rights a {
         text-decoration: none;
         border-bottom: 0.5px solid black;
         color: black;
@@ -48,7 +48,7 @@
         margin-top: 30px;
     }
     
-    .mandarim-footer {
+    .mandarim-logo {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -57,12 +57,12 @@
     }
     
     
-    .madarim-logo-assinatura {
+    .madarim-logo-signature {
         width: 90%;
         height: 150px;
     }
     
-    .direitos-container {
+    .rights {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -74,11 +74,9 @@
         width: 100%;
     }
     
-    .direitos-container a {
+    .rights a {
         text-decoration: none;
         border-bottom: 0.5px solid black;
         color: black;
     }
-    
-
 }
