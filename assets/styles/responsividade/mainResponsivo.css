@@ -21,7 +21,7 @@
     .destaque {
         grid-column: 1 / -1;
         cursor: pointer;
-        background-image: url(../../img/Layer\ 18.png);
+        background-image: url(../../img/destaqueimg.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -176,7 +176,7 @@
     .destaque {
         grid-column: 1 / -1;
         cursor: pointer;
-        background-image: url(../../img/Layer\ 18.png);
+        background-image: url(../../img/destaqueimg.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -337,7 +337,7 @@
     .destaque {
         grid-column: 1 / -1;
         cursor: pointer;
-        background-image: url(../../img/Layer\ 18.png);
+        background-image: url(../../img/destaqueimg.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -498,7 +498,7 @@
     .destaque {
         grid-column: 1 / -1;
         cursor: pointer;
-        background-image: url(../../img/Layer\ 18.png);
+        background-image: url(../../img/destaqueimg.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
