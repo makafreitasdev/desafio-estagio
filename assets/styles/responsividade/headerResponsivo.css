@@ -1,6 +1,6 @@
 @media screen and (max-width: 480px) {
     .header-container {
-        margin-top: 30px;
+        margin-top: 0px;
         overflow: hidden;
         background-color: rgb(255, 98, 0);
         background: linear-gradient(
@@ -70,13 +70,13 @@
       .header-arrows-vector img {
         position: absolute;
         left: 40%;
-        top: 40px;
+        top: 30px;
         width: 40px;
       }
       
       .header-woman-vector {
         position: absolute;
-        top: 42px;
+        top: 13px;
         left: 25%;
         transform: scale(0.4);
       }
