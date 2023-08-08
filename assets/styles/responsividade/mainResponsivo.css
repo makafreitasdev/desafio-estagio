@@ -19,7 +19,7 @@
     }
     
     
-    .topic-highlights {
+    .topic-highlight {
         grid-column: 1 / -1;
         cursor: pointer;
         background-image: url(../../img/destaqueimg.jpeg);
@@ -32,7 +32,7 @@
         align-items: flex-end;
     }
     
-    .highlights-text {
+    .highlight-text {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -41,16 +41,16 @@
         background-color: #FFF;
     }
 
-    .topic-highlights h1 {
+    .topic-highlight h1 {
         font-size: 15px;
     
     }
     
-    .highlights-text .highlights-subtitle {
+    .highlight-text .highlight-subtitle {
         font-size: 10px;
     }
     
-    .highlights-source {
+    .highlight-source {
         color: rgb(184, 184, 184);
         padding-bottom: 10px;
         width: 180px;
@@ -155,7 +155,7 @@
     }
     
     
-    .topic-highlights {
+    .topic-highlight {
         grid-column: 1 / -1;
         cursor: pointer;
         background-image: url(../../img/destaqueimg.jpeg);
@@ -168,7 +168,7 @@
         align-items: flex-end;
     }
     
-    .highlights-text {
+    .highlight-text {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -177,16 +177,16 @@
         background-color: #FFF;
     }
 
-    .topic-highlights h1 {
+    .topic-highlight h1 {
         font-size: 18px;
     
     }
     
-    .highlights-text .highlights-subtitle {
+    .highlight-text .highlight-subtitle {
         font-size: 13px;
     }
     
-    .highlights-source {
+    .highlight-source {
         color: rgb(184, 184, 184);
         padding-bottom: 10px;
         width: 200px;
@@ -287,7 +287,7 @@
     }
     
     
-    .topic-highlights {
+    .topic-highlight {
         grid-column: 1 / -1;
         cursor: pointer;
         background-image: url(../../img/destaqueimg.jpeg);
@@ -300,7 +300,7 @@
         align-items: flex-end;
     }
     
-    .highlights-text {
+    .highlight-text {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -309,16 +309,16 @@
         background-color: #FFF;
     }
 
-    .topic-highlights h1 {
+    .topic-highlight h1 {
         font-size: 25px;
     
     }
     
-    .highlights-text .highlights-subtitle {
+    .highlight-text .highlight-subtitle {
         font-size: 15px;
     }
     
-    .highlights-source {
+    .highlight-source {
         color: rgb(184, 184, 184);
         padding-bottom: 20px;
         width: 300px;
@@ -420,7 +420,7 @@
     }
     
     
-    .topic-highlights {
+    .topic-highlight {
         grid-column: 1 / -1;
         cursor: pointer;
         background-image: url(../../img/destaqueimg.jpeg);
@@ -433,7 +433,7 @@
         align-items: flex-end;
     }
     
-    .highlights-text {
+    .highlight-text {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -443,15 +443,15 @@
     }
     
         
-    .topic-highlights h1 {
+    .topic-highlight h1 {
         font-size: 36px;
     }
 
-    .highlights-text .highlights-subtitle {
+    .highlight-text .highlight-subtitle {
         font-size: 22px;
     }
     
-    .highlights-source {
+    .highlight-source {
         color: rgb(184, 184, 184);
         padding-bottom: 20px;
         width: 550px;
