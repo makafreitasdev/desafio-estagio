@@ -6,7 +6,11 @@
     grid-template-rows: 350px 280px 280px;
     padding: 0px;
   }
-  
+
+  .topic-highlight .highlight-image-default {
+    height: 225px;
+  }
+
   .highlight-text {
     gap: 8px;
   }
@@ -20,7 +24,7 @@
   }
 
   .highlight-source {
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 10px;
     width: 150px;
     font-size: 10px;
