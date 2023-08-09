@@ -1,385 +1,176 @@
 @media screen and (max-width: 480px) {
-    .header-container {
-        margin-top: 0px;
-        overflow: hidden;
-        background-color: rgb(255, 98, 0);
-        background: linear-gradient(
-          90deg,
-          rgba(255, 98, 0, 1) 20%,
-          rgba(205, 36, 108, 1) 54%
-        );
-        position: relative;
-        padding: 0px 20px;
-        height: 150px;
-        width: 100%;
-      }
-      
-      .header-text {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        height: 150px;
-        align-items: center;
-      }
-      
-      .header-text img {
-        width: 130px;
-      }
-      
-      .header-ball-vector {
-        position: absolute;
-        top: 30px;
-        left: -100px;
-        width: 200px;
-      }
-      
-      .nrf-text {
-        display: flex;
-        flex-direction: column;
-        text-align: end;
-        font-size: 7px;
-        color: #fff;
-        font-family: Arial, Helvetica, sans-serif;
-      }
+  .header-container {
+    margin-top: 0px;
+    padding: 0px 20px;
+    height: 150px;
+  }
 
-      .nrf-text p {
-        font-size: 12px;
-      }
-      
-      .nrf-text .header-zigzag-vector {
-        width: 50px;
-        display: flex;
-        align-self: flex-end;
-        padding-top: 10px;
-      }
-      
-      .header-littleballs-vector img {
-        position: absolute;
-        top: 130px;
-        left: 35%;
-        width: 20px;
-      }
-      
-      .header-triangle-vector img {
-        position: absolute;
-        right: 10px;
-        top: 20px;
-        width: 10px;
-      }
-      
-      .header-arrows-vector img {
-        position: absolute;
-        left: 40%;
-        top: 30px;
-        width: 40px;
-      }
-      
-      .header-woman-vector {
-        position: absolute;
-        top: 13px;
-        left: 25%;
-        transform: scale(0.4);
-      }
-      
-      .header-woman-vector img {
-          height: 250px;
-      }
+  .header-text {
+    height: 150px;
+  }
 
-      .boxed {
-        display: flex;
-        justify-content: center;
-        box-sizing: border-box;
-        padding: 0px 10px;
-        background-color: white;
-        width: 100%;
-    }
+  .header-text img {
+    width: 130px;
+  }
+
+  .header-ball-vector {
+    top: 30px;
+    left: -100px;
+    width: 200px;
+  }
+
+  .nrf-text {
+    font-size: 7px;
+  }
+
+  .nrf-text p {
+    font-size: 12px;
+  }
+
+  .nrf-text .header-zigzag-vector {
+    width: 50px;
+    padding-top: 10px;
+  }
+
+  .header-littleballs-vector img {
+    top: 130px;
+    left: 35%;
+    width: 20px;
+  }
+
+  .header-triangle-vector img {
+    right: 10px;
+    top: 20px;
+    width: 10px;
+  }
+
+  .header-arrows-vector img {
+    left: 40%;
+    top: 30px;
+    width: 40px;
+  }
+
+  .header-woman-vector {
+    top: 13px;
+    left: 25%;
+    transform: scale(0.4);
+  }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+  .header-container {
+    padding: 0px 20px;
+    height: 250px;
+  }
 
-    .header-container {
-        margin-top: 30px;
-        overflow: hidden;
-        background-color: rgb(255, 98, 0);
-        background: linear-gradient(
-          90deg,
-          rgba(255, 98, 0, 1) 20%,
-          rgba(205, 36, 108, 1) 54%
-        );
-        position: relative;
-        padding: 0px 20px;
-        height: 250px;
-        width: 100%;
-      }
-      
-      .header-text {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        height: 280px;
-        align-items: center;
-      }
-      
-      .header-text img {
-        width: 200px;
-      }
-      
-      .header-ball-vector {
-        position: absolute;
-        top: 50px;
-        left: -150px;
-        width: 300px;
-      }
-      
-      .nrf-text {
-        display: flex;
-        flex-direction: column;
-        text-align: end;
-        font-size: 10px;
-        color: #fff;
-        font-family: Arial, Helvetica, sans-serif;
-      }
+  .header-text img {
+    width: 200px;
+  }
 
-      .nrf-text p {
-        font-size: 14px;
-      }
-      
-      .nrf-text .header-zigzag-vector {
-        width: 80px;
-        display: flex;
-        align-self: flex-end;
-        padding-top: 15px;
-      }
-      
-      .header-littleballs-vector img {
-        position: absolute;
-        top: 210px;
-        left: 35%;
-        width: 40px;
-      }
-      
-      .header-triangle-vector img {
-        position: absolute;
-        right: 5px;
-        top: 50px;
-        width: 20px;
-      }
-      
-      .header-arrows-vector img {
-        position: absolute;
-        left: 50%;
-        top: 50px;
-        width: 50px;
-      }
-      
-      .header-woman-vector {
-        position: absolute;
-        top: 136px;
-        left: 40%;
-        transform: scale(0.7);
-      }
-      
-      .header-woman-vector img {
-          height: 250px;
-      }
+  .header-ball-vector {
+    top: 50px;
+    left: -150px;
+  }
 
-      .boxed {
-        display: flex;
-        justify-content: center;
-        box-sizing: border-box;
-        padding: 0px 10px;
-        background-color: white;
-        width: 100%;
-    }
+  .nrf-text {
+    font-size: 10px;
+  }
 
+  .nrf-text p {
+    font-size: 14px;
+  }
 
+  .nrf-text .header-zigzag-vector {
+    width: 80px;
+  }
 
+  .header-littleballs-vector img {
+    top: 210px;
+    left: 35%;
+    width: 40px;
+  }
+
+  .header-triangle-vector img {
+    right: 5px;
+    top: 50px;
+    width: 20px;
+  }
+
+  .header-arrows-vector img {
+    width: 50px;
+  }
+
+  .header-woman-vector {
+    top: 136px;
+    left: 40%;
+    transform: scale(0.7);
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1279px) {
-    .header-container {
-        margin-top: 30px;
-        overflow: hidden;
-        background-color: rgb(255, 98, 0);
-        background: linear-gradient(
-          90deg,
-          rgba(255, 98, 0, 1) 20%,
-          rgba(205, 36, 108, 1) 54%
-        );
-        position: relative;
-        padding: 0px 50px;
-        height: 280px;
-        width: 100%;
-      }
-      
-      .header-text {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        height: 280px;
-        align-items: center;
-      }
-      
-      .header-text img {
-        width: 250px;
-      }
-      
-      .header-ball-vector {
-        position: absolute;
-        top: 50px;
-        left: 0px;
-        width: 300px;
-      }
-      
-      .nrf-text {
-        display: flex;
-        flex-direction: column;
-        text-align: end;
-        font-size: 13px;
-        color: #fff;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      
-      .nrf-text .header-zigzag-vector {
-        width: 120px;
-        display: flex;
-        align-self: flex-end;
-        padding-top: 15px;
-      }
-      
-      .header-littleballs-vector img {
-        position: absolute;
-        top: 240px;
-        left: 43%;
-        width: 40px;
-      }
-      
-      .header-triangle-vector img {
-        position: absolute;
-        right: 25px;
-        top: 30px;
-        width: 30px;
-      }
-      
-      .header-arrows-vector img {
-        position: absolute;
-        left: 50%;
-        top: 50px;
-        width: 80px;
-      }
-      
-      .header-woman-vector {
-        position: absolute;
-        top: 165px;
-        left: 45%;
-        transform: scale(0.8);
-      }
-      
-      .header-woman-vector img {
-          height: 250px;
-      }
+  .header-container {
+    padding: 0px 50px;
+    height: 280px;
+  }
 
-      .boxed {
-        display: flex;
-        justify-content: center;
-        box-sizing: border-box;
-        padding: 0px 50px;
-        background-color: white;
-        width: 100%;
-    }
+  .header-text img {
+    width: 250px;
+  }
 
+  .header-ball-vector {
+    left: -50px;
+  }
 
+  .nrf-text {
+    font-size: 13px;
+  }
+
+  .nrf-text .header-zigzag-vector {
+    width: 120px;
+  }
+
+  .header-littleballs-vector img {
+    top: 240px;
+    left: 43%;
+    width: 40px;
+  }
+
+  .header-triangle-vector img {
+    right: 25px;
+    top: 30px;
+    width: 30px;
+  }
+
+  .header-woman-vector {
+    top: 165px;
+    left: 45%;
+    transform: scale(0.8);
+  }
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1380px) {
+  .header-text img {
+    width: 300px;
+  }
 
-    .header-container {
-        margin-top: 30px;
-        overflow: hidden;
-        background-color: rgb(255, 98, 0);
-        background: linear-gradient(
-          90deg,
-          rgba(255, 98, 0, 1) 20%,
-          rgba(205, 36, 108, 1) 54%
-        );
-        position: relative;
-        padding: 0px 100px;
-        height: 280px;
-        width: 100%;
-      }
-      
-      .header-text {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        height: 280px;
-        align-items: center;
-      }
-      
-      .header-text img {
-        width: 300px;
-      }
-      
-      .header-ball-vector {
-        position: absolute;
-        top: 50px;
-        left: 0px;
-        width: 300px;
-      }
-      
-      .nrf-text {
-        display: flex;
-        flex-direction: column;
-        text-align: end;
-        color: #fff;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      
-      .nrf-text .header-zigzag-vector {
-        width: 120px;
-        display: flex;
-        align-self: flex-end;
-        padding-top: 15px;
-      }
-      
-      .header-littleballs-vector img {
-        position: absolute;
-        top: 240px;
-        left: 33%;
-        width: 50px;
-      }
-      
-      .header-triangle-vector img {
-        position: absolute;
-        right: 70px;
-        top: 15px;
-        width: 30px;
-      }
-      
-      .header-arrows-vector img {
-        position: absolute;
-        left: 50%;
-        top: 50px;
-        width: 80px;
-      }
-      
-      .header-woman-vector {
-        position: absolute;
-        top: 165px;
-        left: 43%;
-      }
-      
-      .header-woman-vector img {
-          height: 250px;
-      }
+  .nrf-text .header-zigzag-vector {
+    width: 120px;
+  }
 
-      .boxed {
-        display: flex;
-        justify-content: center;
-        box-sizing: border-box;
-        padding: 0px 100px;
-        background-color: white;
-        width: 100%;
-    }
+  .header-littleballs-vector img {
+    top: 240px;
+    left: 33%;
+    width: 50px;
+  }
 
+  .header-triangle-vector img {
+    right: 70px;
+    top: 15px;
+    width: 30px;
+  }
+
+  .header-woman-vector {
+    top: 165px;
+    left: 43%;
+  }
 }

@@ -1,8 +1,32 @@
 .boxed {
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    padding: 0px 200px;
-    background-color: white;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0px 200px;
+  background-color: white;
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .boxed {
+    padding: 0px 0px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .boxed {
+    padding: 0px 20px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  .boxed {
+    padding: 0px 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1380px) {
+  .boxed {
+    padding: 0px 100px;
+  }
 }

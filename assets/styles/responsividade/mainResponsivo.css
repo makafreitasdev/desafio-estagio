@@ -1,512 +1,199 @@
 @media screen and (max-width: 480px) {
+  
+  /*Highlight start*/ 
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 350px 280px 280px;
+    padding: 0px;
+  }
 
-    /*Highlight start*/
-    .main-container {
-        align-self: center;
-        width: 90%;
-        box-sizing: border-box;
-        margin-top: 30px;
-        z-index: 10;
-    }
-    
-    .grid-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-rows: 350px 280px 280px;
-        grid-gap: 20px;
-        padding: 0px;
-        font-family: Arial, Helvetica, sans-serif
-    }  
-    
-    .topic-highlight {
-        grid-column: 1 / -1;
-        cursor: pointer;
-        width: 100%;
-        display: flex;
-        align-items: flex-end;
-    }
-    
-    .highlight-text {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        gap: 8px;
-        background-color: #FFF;
-    }
+  .highlight-text {
+    gap: 8px;
+  }
 
-    .topic-highlight h1 {
-        font-size: 20px;
-    
-    }
-    
-    .highlight-text .highlight-subtitle {
-        font-size: 13px;
-    }
-    
-    .highlight-source {
-        color: rgb(107, 107, 107);
-        padding-bottom: 10px;
-        width: 180px;
-        font-style: italic;
-        font-size: 10px;
-        border-bottom-style: solid;
-        border-bottom-width: 2px;  
-        border-image: linear-gradient(to right, #e95c7b, #4d22c5);
-        border-image-slice: 1;
-    }
-    /*Highlight of end*/
+  .topic-highlight h1 {
+    font-size: 20px;
+  }
 
-    /*Start of reports*/       
-    .post {
-        cursor: pointer;
-        width: 100%;
-        height: 290px;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-    }
-   
-    .post-img-container {
-        display: flex;
-        overflow: hidden;
-        align-items: center;
-        overflow: hidden;
-    }
+  .highlight-text .highlight-subtitle {
+    font-size: 12px;
+  }
 
-    .post-image {
-        width: 100%;
-        height: 200px;
-    }
-   
-    .post-title {
-        font-size: 19px;
-    }
-    
-    .post-text {
-        background-color: #FFF;
-        padding-top: 10px;
-        height: 85px;
-    }
-    
-    .post-source-first {
-        color: rgb(107, 107, 107);
-        padding-bottom: 10px;
-        padding-top: 10px;
-        width: 100px;
-        font-style: italic;
-        font-size: 12px;
-        border-bottom-style: solid;
-        border-bottom-style: solid;
-        border-bottom-width: 2px;   
-        border-image: linear-gradient(to right, #53bada, #2c478f);
-        border-image-slice: 1;
-    }
-    
-    .post-source-second {
-        color: rgb(107, 107, 107);
-        padding-bottom: 10px;
-        padding-top: 10px;
-        width: 100px;
-        font-style: italic;
-        font-size: 12px;
-        border-bottom-style: solid;
-        border-bottom-style: solid;
-        border-bottom-width: 2px; 
-        border-image: linear-gradient(to right, #5ce0e9, #35c772);
-        border-image-slice: 1;
-    }
-    /*End of reports*/
+  .highlight-source {
+    padding-bottom: 10px;
+    width: 180px;
+    font-size: 10px;
+    border-bottom-width: 2px;
+  }
+  /*Highlight of end*/
 
-    .boxed {
-        display: flex;
-        justify-content: center;
-        box-sizing: border-box;
-        padding: 0px 0px;
-        background-color: white;
-        width: 100%;
-    }
+  /*Start of reports*/
+  .post {
+    height: 290px;
+    justify-content: start;
+  }
+
+  .post-image {
+    width: 100%;
+    height: 200px;
+  }
+
+  .post-img-container {
+    align-items: center;
+  }
+
+  .post-title {
+    font-size: 19px;
+  }
+
+  .post-text {
+    height: 85px;
+  }
+
+  .post-source-first {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100px;
+    font-size: 12px;
+    border-bottom-width: 2px;
+  }
+
+  .post-source-second {
+    padding-top: 10px;
+    width: 100px;
+    font-size: 12px;
+    border-bottom-width: 2px;
+  }
+  /*End of reports*/
 
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+  
+  /*Highlight start*/ 
+  .highlight-text {
+    gap: 8px;
+  }
 
-    /*Highlight start*/
-    .main-container {
-        align-self: center;
-        width: 90%;
-        box-sizing: border-box;
-        margin-top: 30px;
-        z-index: 10;
-    }
-    
-    .grid-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 20px;
-        padding: 20px;
-        font-family: Arial, Helvetica, sans-serif
-    }
-    
-    
-    .topic-highlight {
-        grid-column: 1 / -1;
-        cursor: pointer;
-        width: 100%;
-        display: flex;
-        align-items: flex-end;
-    }
-    
-    .highlight-text {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        gap: 8px;
-        background-color: #FFF;
-    }
+  .topic-highlight h1 {
+    font-size: 22px;
+  }
 
-    .topic-highlight h1 {
-        font-size: 22px;
-    
-    }
-    
-    .highlight-text .highlight-subtitle {
-        font-size: 15px;
-    }
-    
-    .highlight-source {
-        color: rgb(107, 107, 107);
-        padding-bottom: 10px;
-        width: 200px;
-        font-style: italic;
-        font-size: 12px;
-        border-bottom-style: solid;
-        border-bottom-width: 4px;  
-        border-image: linear-gradient(to right, #e95c7b, #4d22c5);
-        border-image-slice: 1;
-    }
-    /*Highlight of end*/
+  .highlight-text .highlight-subtitle {
+    font-size: 15px;
+  }
 
-    /*Start of reports*/     
-    .post {
-        cursor: pointer;
-        width: 100%;
-        height: 275px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-    }
+  .highlight-source {
+    padding-bottom: 10px;
+    width: 200px;
+    font-size: 12px;
+  }
+  /*Highlight of end*/
 
-    .post-img-container {
-        display: flex;
-        overflow: hidden;
-    }
-       
-    .post-image {
-        width: 100%;
-        height: 170px;
-    }
-    
-    .post-text {
-        background-color: #FFF;
-        padding-top: 10px;
-        height: 95px;
-    }
+  /*Start of reports*/
+  .post {
+    height: 275px;
+    justify-content: flex-start;
+  }
 
-    .post-title {
-        font-size: 16px;
-    }
-    
-    .post-source-first {
-        color: rgb(107, 107, 107);
-        padding-bottom: 10px;
-        padding-top: 20px;
-        width: 90px;
-        font-style: italic;
-        font-size: 12px;
-        border-bottom-style: solid;
-        border-bottom-width: 4px;  
-        border-image: linear-gradient(to right, #53bada, #2c478f);
-        border-image-slice: 1;
-    }
-    
-    .post-source-second {
-        color: rgb(107, 107, 107);
-        padding-bottom: 10px;
-        padding-top: 20px;
-        width: 90px;
-        font-style: italic;
-        font-size: 12px;
-        border-bottom-style: solid;
-        border-bottom-width: 4px;  
-        border-image: linear-gradient(to right, #5ce0e9, #35c772);
-        border-image-slice: 1;
-    }
-    /*End of reports*/ 
+  .post-image {
+    height: 170px;
+  }
 
-    .boxed {
-        display: flex;
-        justify-content: center;
-        box-sizing: border-box;
-        padding: 0px 20px;
-        background-color: white;
-        width: 100%;
-    }
+  .post-text {
+    height: 95px;
+  }
 
+  .post-title {
+    font-size: 16px;
+  }
+
+  .post-source-first {
+    width: 90px;
+    font-size: 12px;
+    border-bottom-width: 4px;
+  }
+
+  .post-source-second {
+    width: 90px;
+    font-size: 12px;
+  }
+  /*End of reports*/
 }
 
 @media screen and (min-width: 769px) and (max-width: 1279px) {
+  
+  /*Highlight start*/
+  .topic-highlight h1 {
+    font-size: 28px;
+  }
 
-    /*Highlight start*/
-    .main-container {
-        align-self: center;
-        width: 90%;
-        box-sizing: border-box;
-        margin-top: 30px;
-        z-index: 10;
-    }
-    
-    .grid-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 20px;
-        padding: 20px;
-        font-family: Arial, Helvetica, sans-serif
-    }
-    
-    
-    .topic-highlight {
-        grid-column: 1 / -1;
-        cursor: pointer;
-        width: 100%;
-        display: flex;
-        align-items: flex-end;
-    }
+  .highlight-text .highlight-subtitle {
+    font-size: 17px;
+  }
 
-    .topic-highlight .highlight-image-default {
-        width: 100%;
-        height: auto;
-    }
-    
-    .highlight-text {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        gap: 20px;
-        background-color: #FFF;
-    }
+  .highlight-source {
+    width: 300px;
+    font-size: 12px;
+  }
+  /*Highlight of end*/
 
-    .topic-highlight h1 {
-        font-size: 28px;
-    
-    }
-    
-    .highlight-text .highlight-subtitle {
-        font-size: 17px;
-    }
-    
-    .highlight-source {
-        color: rgb(107, 107, 107);
-        padding-bottom: 20px;
-        width: 300px;
-        font-style: italic;
-        font-size: 12px;
-        border-bottom-style: solid;
-        border-bottom-width: 4px;  
-        border-image: linear-gradient(to right, #e95c7b, #4d22c5);
-        border-image-slice: 1;
-    }
-    /*Highlight of end*/
+  /*Start of reports*/
+  .post {
+    height: 410px;
+  }
 
-    /*Start of reports*/      
-    .post {
-        cursor: pointer;
-        width: 100%;
-        height: 410px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-    }
+  .post-img-container {
+    justify-content: center;
+    align-items: center;
+  }
 
-    .post-img-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-    }
-    
-    .post-image {
-        width: 100%;
-        height: 250px;
-    }
-    
-    .post-text {
-        background-color: #FFF;
-        padding-top: 10px;
-    }
+  .post-image {
+    height: 250px;
+  }
 
-    .post-title {
-        font-size: 24px;
-    }
-    
-    .post-source-first {
-        color: rgb(107, 107, 107);
-        padding-bottom: 20px;
-        padding-top: 20px;
-        width: 150px;
-        font-style: italic;
-        font-size: 12px;
-        border-bottom-style: solid;
-        border-bottom-width: 4px;  
-        border-image: linear-gradient(to right, #53bada, #2c478f);
-        border-image-slice: 1;
-    }
-    
-    .post-source-second  {
-        color: rgb(107, 107, 107);
-        padding-bottom: 20px;
-        padding-top: 20px;
-        width: 150px;
-        font-style: italic;
-        font-size: 12px;
-        border-bottom-style: solid;
-        border-bottom-width: 4px;  
-        border-image: linear-gradient(to right, #5ce0e9, #35c772);
-        border-image-slice: 1;
-    }
-    /*End of reports*/ 
+  .post-text {
+    padding-top: 10px;
+  }
 
-    .boxed {
-        display: flex;
-        justify-content: center;
-        box-sizing: border-box;
-        padding: 0px 30px;
-        background-color: white;
-        width: 100%;
-    }
+  .post-title {
+    font-size: 24px;
+  }
 
+  .post-source-first {
+    width: 150px;
+    font-size: 12px;
+  }
+
+  .post-source-second {
+    width: 150px;
+    font-size: 12px;
+  }
+  /*End of reports*/
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1380px) {
+  
+  /*Highlight start*/
+  .topic-highlight h1 {
+    font-size: 36px;
+  }
 
-    /*Highlight start*/
-    .main-container {
-        align-self: center;
-        width: 90%;
-        box-sizing: border-box;
-        margin-top: 30px;
-        z-index: 10;
-    }
-    
-    .grid-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 20px;
-        padding: 20px;
-        font-family: Arial, Helvetica, sans-serif
-    }
-    
-    
-    .topic-highlight {
-        grid-column: 1 / -1;
-        cursor: pointer;
-        width: 100%;
-        display: flex;
-        align-items: flex-end;
-    }
-    
-    .highlight-text {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        gap: 20px;
-        background-color: #FFF;
-    }
-    
-        
-    .topic-highlight h1 {
-        font-size: 36px;
-    }
+  .highlight-source {
+    color: rgb(184, 184, 184);
+  }
+  /*Highlight of end*/
 
-    .highlight-text .highlight-subtitle {
-        font-size: 22px;
-    }
-    
-    .highlight-source {
-        color: rgb(184, 184, 184);
-        padding-bottom: 20px;
-        width: 550px;
-        font-style: italic;
-        border-bottom-style: solid;
-        border-bottom-width: 4px;  
-        border-image: linear-gradient(to right, #e95c7b, #4d22c5);
-        border-image-slice: 1;
-    }
-    /*Highlight of end*/
+  /*Start of reports*/
 
-    /*Start of reports*/      
-    .post {
-        cursor: pointer;
-        width: 100%;
-        height: 500px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-    }
-    
-    .post-img-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-    }
-    
-    .post-image {
-        width: 100%;
-        height: 300px;
-    }
+  .post-img-container {
+    justify-content: center;
+    align-items: center;
+  }
 
-        
-   .post-title {
-        font-size: 32px;
-    }
-    
-    .post-text {
-        background-color: #FFF;
-        padding-top: 10px;
-    }
-    
-    .post-source-first {
-        color: rgb(184, 184, 184);
-        padding-bottom: 20px;
-        padding-top: 20px;
-        width: 200px;
-        font-style: italic;
-        border-bottom-style: solid;
-        border-bottom-width: 4px;  
-        border-image: linear-gradient(to right, #53bada, #2c478f);
-        border-image-slice: 1;
-    }
-    
-    .post-source-second {
-        color: rgb(184, 184, 184);
-        padding-bottom: 20px;
-        padding-top: 20px;
-        width: 200px;
-        font-style: italic;
-        border-bottom-style: solid;
-        border-bottom-width: 4px;  
-        border-image: linear-gradient(to right, #5ce0e9, #35c772);
-        border-image-slice: 1;
-    }
-    /*End of reports*/ 
+  .post-title {
+    font-size: 32px;
+  }
 
-    .boxed {
-        display: flex;
-        justify-content: center;
-        box-sizing: border-box;
-        padding: 0px 100px;
-        background-color: white;
-        width: 100%;
-    }   
+  /*End of reports*/
 }
