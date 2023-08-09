@@ -6,7 +6,7 @@
     grid-template-rows: 350px 280px 280px;
     padding: 0px;
   }
-
+  
   .highlight-text {
     gap: 8px;
   }
@@ -20,8 +20,9 @@
   }
 
   .highlight-source {
+    padding-top: 10px;
     padding-bottom: 10px;
-    width: 180px;
+    width: 150px;
     font-size: 10px;
     border-bottom-width: 2px;
   }
@@ -59,6 +60,7 @@
   }
 
   .post-source-second {
+    padding-bottom: 10px;
     padding-top: 10px;
     width: 100px;
     font-size: 12px;
